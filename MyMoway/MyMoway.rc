@@ -1,0 +1,230 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Inglés (Estados Unidos) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 225, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MyMoway robot, version 1"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "MyMoway, Test project for Moway robot, Version 1.0",IDC_STATIC,43,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyleft mrtn.upv.es 2011 (martin@ai2.upv.es)",IDC_STATIC,7,47,161,8
+    DEFPUSHBUTTON   "OK",IDOK,168,41,50,14,WS_GROUP
+    LTEXT           "Sensor perception on robotics Lesson",IDC_STATIC,43,24,114,8,SS_NOPREFIX
+    LTEXT           "UPV - BIT collaboration",IDC_STATIC,43,34,114,8,SS_NOPREFIX
+END
+
+IDD_MYMOWAY_DIALOG DIALOGEX 0, 0, 344, 143
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MyMoway"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,237,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,287,7,50,14
+    PUSHBUTTON      "Connect",IDC_BUTTON_CONNECT,127,7,50,14
+    PUSHBUTTON      "Disconnect",IDC_BUTTON_DISCONNECT,177,7,50,14
+    LTEXT           "Moway ID (1 - 14) = ",IDC_STATIC,7,10,78,9
+    EDITTEXT        IDC_EDIT1,77,7,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Start Alive",IDC_BUTTON_ALIVE,7,122,50,14
+    PUSHBUTTON      "Start Fear",IDC_BUTTON_FEAR,63,122,50,14
+    PUSHBUTTON      "Start Aggr.",IDC_BUTTON_AGGRESSION,119,122,50,14
+    PUSHBUTTON      "Start Love",IDC_BUTTON_LOVE,175,122,50,14
+    PUSHBUTTON      "Start Explore",IDC_BUTTON_EXPLORE,231,122,50,14
+    PUSHBUTTON      "Start Line",IDC_BUTTON_LINE,287,122,50,14
+    EDITTEXT        IDC_EDIT2,86,39,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,199,39,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,83,82,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,199,80,40,14,ES_AUTOHSCROLL
+    LTEXT           "Origen X :",IDC_STATIC,23,41,33,8
+    LTEXT           "Origen Y :",IDC_STATIC,147,43,33,8
+    LTEXT           "Destino X :",IDC_STATIC,17,83,36,8
+    LTEXT           "Destino Y :",IDC_STATIC,147,81,36,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "MyMoway.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "MyMoway.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_MYMOWAY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 337
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About MyMoway..."
+END
+
+#endif    // Inglés (Estados Unidos) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Español (España, alfabetización internacional) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\MyMoway.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MyMoway.ico"
+#endif    // Español (España, alfabetización internacional) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\MyMoway.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
